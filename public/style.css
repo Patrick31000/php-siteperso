@@ -1,10 +1,156 @@
 * {
-	box-sizing: border-box;
-	margin:0;
-	padding:0;
-	font-size:1rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
 }
 
 html {
-	font-size:62.5%;
+    font-size: 62.5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+footer {
+    display: block;
+    background-color: #333;
+    color: white;
+}
+
+.container {
+    height: 80vh;
+}
+
+.talents {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    height: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.talent {
+    display: table-cell;
+    width: 33.3333%;
+    padding: 20px;
+    box-shadow: 5px 10px 5px #656565;
+    font-size: 200%;
+}
+
+.skills {
+    height: 5vh;
+}
+
+.skills h2 {
+    font-size: 250%;
+    Margin-left: 3%;
+    margin-top: 3%;
+}
+
+.nav ul li a {
+    font-size: 150%;
+}
+
+.footer {
+    height: 8vh;
+}
+
+.footer p {
+    font-size: 120%;
+}
+
+.contact {
+    height: 85vh;
+    padding: 5%;
+    padding-left: 10%;
+}
+
+.name {
+    font-size: 200%;
+}
+
+input.name {
+    width: 30vw;
+    font-size: 90%;
+    margin-top: 1%;
+}
+
+input.mail {
+    width: 30vw;
+    font-size: 90%;
+}
+
+textarea.message {
+    width: 30vw;
+    font-size: 90%;
+}
+
+.mail {
+    font-size: 200%;
+    margin-top: 1%;
+}
+
+.message {
+    font-size: 200%;
+    margin-top: 1%;
+}
+
+input.bouton {
+    width: 110px;
+    height: 20px;
+    margin-top: 1%;
+}
+
+#background {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    height: 85vh;
+    font-size: 600%;
+    text-align: center;
+    padding-top: 3em;
+    font-weight: bold;
+    color: black;
+}
+
+.save p {
+    font-size: 170%;
+    padding: 5%;
+}
+
+.admin p {
+    height: 80vh;
+    font-size: 16px;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.save2 a {
+    font-size: 20px;
 }
